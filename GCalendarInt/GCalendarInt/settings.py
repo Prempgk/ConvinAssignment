@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-9#iyy8b8y9ign%cyfd^4ebjc1+!n=dx=hmgcd_k!1yx232og@&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['3.115.13.44']
+ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -77,10 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'convin',
-        'HOST': '3.115.13.44',
+        'HOST': '127.0.0.1',
         'PORT': '3306',
-        'USER': 'adiuser',
-        'PASSWORD': 'adi_Admin21'
+        'USER': 'root',
+        'PASSWORD': '1234'
     }
 }
 
