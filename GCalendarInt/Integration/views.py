@@ -20,7 +20,7 @@ SCOPES = ['https://www.googleapis.com/auth/calendar',
           'https://www.googleapis.com/auth/userinfo.email',
           'https://www.googleapis.com/auth/userinfo.profile',
           'openid']
-REDIRECT_URL = 'http://127.0.0.1:5003/rest/v1/calendar/redirect'
+REDIRECT_URL = 'http://0.0.0.0:5003/rest/v1/calendar/redirect'
 API_SERVICE_NAME = 'calendar'
 API_VERSION = 'v3'
 
