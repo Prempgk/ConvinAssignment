@@ -77,10 +77,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'convin',
-        'HOST': '127.0.0.1',
+        'HOST': '3.115.13.44',
         'PORT': '3306',
-        'USER': 'root',
-        'PASSWORD': '1234'
+        'USER': 'adiuser',
+        'PASSWORD': 'adi_Admin21'
     }
 }
 
